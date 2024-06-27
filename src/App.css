@@ -1,0 +1,225 @@
+/* write your css here */
+@media (max-width:1200px) {
+    .hero-section {
+        background-color: #ff5353;
+        position: relative;
+    }
+    .nav{
+        max-width: 100vw;
+        width:100%;
+    }
+
+    .background,
+    .play,
+    .man {
+        display: none;
+    }
+    .links{
+        margin-right:3rem;
+        font-size: 20px;
+    }
+
+    .hero {
+        max-width: 400px;
+        width:100%;
+        right: 1rem;
+        top: 3rem;
+        position: absolute;
+
+    }
+  
+
+    .witt {
+        font-size: 70px;
+        top: 8rem;
+        margin-left: 15rem;
+    }
+
+    .hero-title {
+        max-width: 700px;
+        width:100%;
+        left: 4rem;
+    }
+
+    .mobile {
+        position: absolute;
+        font-size: 4rem;
+
+        top: 14rem;
+    }
+    .logo{
+        font-size:38px;
+        margin-left: 2rem;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .hero-content {
+        font-size: 2rem;
+        width: 600px;
+        top: 22rem;
+        left: 5rem;
+
+    }
+
+    .download {
+        width: 45%;
+        color: white;
+        font-size: 24px;
+        top: 30rem;
+        left: 4rem;
+
+    }
+}
+
+@media (min-width:1200px) {
+    .hero-section {
+        background-color: white;
+        height:740px;
+    }
+    .logo{
+        font-size: 30px;
+        margin-left:10rem;
+    }
+    .container{
+        width:90%;
+    }
+    .hero {
+        top: 6rem;
+        left: 51rem;
+        position: absolute;
+    }
+    .links{
+        margin-right:33rem;
+    }
+
+    .witt {
+        top: 11rem;
+        margin-left: 41rem;
+        font-size: 33px;
+        
+    }
+
+    .hero-title {
+        font-size: 6rem;
+        left: 25rem;
+        top: 16rem;
+        width: 180px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .hero-content {
+        width: 170px;
+        left: 38rem;
+        top: 35rem;
+    }
+
+    .download {
+        top: 39.5rem;
+        left: 11rem;
+        color: #9ca3af;
+    }
+
+    .download:hover {
+        color: #e5e7eb;
+    }
+
+}
+@media (max-width:900px){
+    nav{
+        max-width: 100vw;
+        width:100%;
+        
+        
+    }
+    .download{
+        top:27rem;
+        left:10rem;
+    }
+    
+    
+    .logo{
+        display:none;
+    }
+    .links{
+        margin-inline:78px;
+        width:80%;
+        
+        text-align: center;
+        padding-left: 35px;
+    }
+    .hero{
+        display:none;
+    }
+    .hero-section{
+        width:100%;
+        max-width: 100vw;
+       
+        position:relative;
+        
+    }
+    
+    .mobile{
+        top:11rem;
+        
+        width:90%;
+        
+        font-size:3rem;
+        left:-2.5rem;
+        text-align: center;
+    }
+   
+    
+    .hero-content{
+        width:70%;
+        top:17rem;
+       
+        text-align: center;
+        position: absolute;
+        font-size:30px;
+        left:5rem;
+    }
+    .witt{
+        width:30%;
+      
+        left:-1rem;
+        position:absolute;
+        top:2rem;
+        font-size: 5rem;
+    }
+}
+@media(max-width:600px){
+    .witt{
+        display:none;
+    }
+    .nav{
+        width:100%;
+    }
+    .hero-title{
+        display:none;
+    }
+    .hero-content{
+        width:70%;
+        top:10rem;
+        left:3rem;
+        font-size:30px
+    }
+    .logo{
+        display:block;
+    }
+    nav{
+        display:none;
+    }
+    .download{
+        top:28rem;
+        left:6rem;
+    }
+    .hero-section{
+        height: 100vh;
+    }
+}
